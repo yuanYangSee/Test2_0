@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Test2_0</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+      <!-- UI -->
+    <string name="UI_opendevice">1 Initialize</string>
+    <string name="UI_capfingers">2 CapFinger</string>
+    <string name="UI_capidcard">3 CapCard</string>
+    <string name="UI_idComparison">4 Verify </string>
+    <string name="UI_capdone">5 Close</string>
+    
+      <!--strings  -->
+     <string name="DeviceNotinited">The device is not initialized, Please press Initialize Button!</string>
+    <string name="CapComplated">Collection has been completed.</string>
+    <string name="NotCapidcard">Sorry, Please complete the ID card Information collection!</string>
+    <string name="NotCapComplated">The current collection is not complete!</string>
+    <string name="Return">Return</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Warning">Warning</string>
+    <string name="Yes">Sure</string>
+    <string name="OneFingerNotCap">The finger position has not yet been collected</string>
+     <string name="NoteString">Prompt message</string>
+     <string name="FingerPrintBmp">FingerPrint：</string>
+     <string name="ModuleSerialnumber">SerialNumber：</string>
+     <string name="OpenFailed">Open Device Failed！</string>
+     <string name="OpenSucced">Open Device Success！</string>
+     <string name="GetRootFailed">Device has not Root Permission.</string>
+     
+     <!-- some information about IDCard -->
+    <string name="ID_DisplayMetrics">The screen resolution:</string>
+    <string name="ID_number">IDCard Number:</string>
+     <string name="ID_name">Name:</string>
+     <string name="ID_sex">Sex:</string>
+     <string name="ID_birthday">Birthday:</string>
+     <string name="ID_address">Address:</string>
+     <string name="ID_ComparisonScore">Verification Scores:</string>
+     
+    
+    
+
+</resources>

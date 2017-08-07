@@ -1,0 +1,253 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.test2_0.MainActivity" >
+
+        <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="130dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/corners_bg"
+        android:gravity="fill_vertical"
+        android:orientation="vertical" >
+        <Button
+            android:id="@+id/Opendevice"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/selector"
+            android:gravity="left|center"
+            android:text="@string/UI_opendevice"/>
+        <Button
+            android:id="@+id/CapFingers"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/selector"
+            android:gravity="left|center"
+            android:text="@string/UI_capfingers" />
+        <Button
+            android:id="@+id/CapIDcard"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/selector"
+            android:gravity="left|center"
+            android:text="@string/UI_capidcard" />
+        <Button
+            android:id="@+id/Verification"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/selector"
+            android:gravity="left|center"
+            android:text="@string/UI_idComparison" />
+       
+        <EditText
+            android:id="@+id/editRegisterNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/hand_r"
+            android:ems="10"
+            android:hint="0"
+            android:selectAllOnFocus="true"
+            android:inputType="number" />
+       
+          <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="110dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/selector"
+            android:gravity="left|center"
+            
+            android:text="moduleregister"/>
+          <Button
+            android:id="@+id/buttonFP1Vn"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/selector"
+            android:gravity="left|center"
+            android:text="moduleverify"/>
+          
+        <Button
+            android:id="@+id/Cancel"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/selector"
+            android:gravity="left|center"
+            android:text="@string/UI_capdone"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/linearLayout"
+        android:background="@drawable/corners_bg"
+        android:orientation="vertical"
+        android:visibility="gone" >
+        <Button
+            android:id="@+id/Button1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/selector"
+            android:text="测试内序列号"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/Button3"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/selector"
+            android:text="测试产品序列号"
+            android:textSize="20sp"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/Button2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/selector"
+            android:text="图像质量测试"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/Button4"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/selector"
+            android:text="初始化传感器"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/Button0"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/selector"
+            android:text="函数接口测试"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/ButtonTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/selector"
+            android:text="测试"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/LinearShow"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/linearLayout1"
+        android:background="@drawable/corners_bg"
+        android:orientation="vertical"
+        android:gravity="fill_vertical" >
+       
+        <TextView
+            android:id="@+id/textNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:hint="@string/NoteString"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+            android:id="@+id/textSerialView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="@string/ModuleSerialnumber" />
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="#AFEEEE"
+            android:text="@string/ID_number"/>
+        <TextView
+            android:id="@+id/IDcard_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="#F0F8FF" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="#AFEEEE"
+            android:text="@string/ID_ComparisonScore"/>
+        <TextView
+            android:id="@+id/IDcard_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="#F0F8FF"/>
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="#AFEEEE"
+            android:text="@string/FingerPrintBmp" />
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/img_avatar_2" />
+       
+    </LinearLayout>
+
+
+</RelativeLayout>
